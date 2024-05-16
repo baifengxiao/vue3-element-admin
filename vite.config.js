@@ -74,7 +74,7 @@ export default env => {
     },
     server: {
       port: 3001,
-      open: true,
+      open: false,
       proxy: {
         '/api': {
           target: 'http://dev.api.xxx.com', // 后端接口的域名
