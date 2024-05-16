@@ -27,3 +27,10 @@ export const GetUserinfo = () => {
     method: 'get',
   })
 }
+
+export const GetValidateCode = () => {
+  return request({
+    url: `/admin/system/index/generateValidateCode`,
+    method: `get`,
+  })
+}
